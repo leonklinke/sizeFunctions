@@ -14,6 +14,4 @@ func main() {
 	// getProjectPath()
 	projectPath := "./probeFunctions"
 	lines = counter.CountProjectFunctionLines(projectPath)
-
-	println("lines:", lines)
 }
